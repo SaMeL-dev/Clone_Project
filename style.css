@@ -1,10 +1,56 @@
+/* 기본 스타일 */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
+    background-color: #2C083B;
+    margin: 0;  /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+    line-height: 1.6; /* 텍스트 줄 간격 설정 */
 }
 
-h1 {
-    color: #333;
+/* 헤더 스타일 */
+header {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 20px;      /* 내부 여백 설정 */
+    text-align: center; /* 텍스트를 중앙 정렬 */
+}
+
+/* 섹션 스타일 */
+main {
+    padding: 20px; /* 주요 콘텐츠 영역에 여백 설정 */
+}
+
+section {
+    margin-bottom: 20px; /* 섹션 간의 간격 설정 */
+}
+
+section#about {
+    background: #fff;
+    padding: 10px; /* 내부 여백 설정 */
+    border-radius: 8px; /* 모서리를 둥글게 만듦 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 효과 */
+}
+
+/* 리스트 스타일 */
+ul {
+    list-style-type: none; /* 기본 리스트 스타일 제거 */
+    padding: 0; /* 내부 패딩 제거 */
+}
+
+ul li {
+    background: #e8f5e9; /* 리스트 항목 배경색 설정 */
+    margin: 5px 0; /* 리스트 항목 간 간격 설정 */
+    padding: 10px; /* 리스트 항목 내부 여백 설정 */
+    border-radius: 5px; /* 모서리를 살짝 둥글게 만듦 */
+}
+
+/* 푸터 스타일 */
+footer {
+    text-align: center; /* 텍스트를 중앙 정렬 */
+    padding: 10px; /* 내부 여백 설정 */
+    background: #333; /* 배경색을 어두운 회색으로 설정 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+    position: relative; /* 레이아웃에서 위치를 상대적으로 설정 */
+    bottom: 0; /* 하단 위치 고정 */
+    width: 100%; /* 푸터를 전체 너비로 확장 */
 }
