@@ -15,6 +15,14 @@ header {
     text-align: center; /* 텍스트를 중앙 정렬 */
 }
 
+/* 프로젝트 섹션의 h2 스타일 */
+.projects-header {
+    color: #0f89cf;
+    font-family: 'Verdana', sans-serif; /* Verdana 폰트 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    text-transform: uppercase; /* 텍스트 대문자로 */
+}
+
 /* 섹션 스타일 */
 main {
     padding: 20px; /* 주요 콘텐츠 영역에 여백 설정 */
@@ -53,4 +61,49 @@ footer {
     position: relative; /* 레이아웃에서 위치를 상대적으로 설정 */
     bottom: 0; /* 하단 위치 고정 */
     width: 100%; /* 푸터를 전체 너비로 확장 */
+}
+
+/* 숨김 클래스 */
+.hidden {
+    display: none !important;
+}
+
+#custom-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.alert-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.alert-message {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
